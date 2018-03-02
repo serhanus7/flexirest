@@ -34,8 +34,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'coveralls'
   spec.add_development_dependency "api-auth", ">= 1.3.1"
   spec.add_development_dependency 'typhoeus'
-
-  spec.add_runtime_dependency "multi_json", '1.13.0'
+  
   spec.add_runtime_dependency "crack"
   spec.add_runtime_dependency "faraday"
 
